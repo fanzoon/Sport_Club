@@ -1,6 +1,5 @@
 package org.example;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 public class Menu {
@@ -13,7 +12,7 @@ public class Menu {
             menu = scanner.nextInt();
             switch (menu) {
                 case 0 -> startMenu();
-                case 1 -> {
+                case 1 -> {   // todu На сервисе вызвать всех спортсменов
 
                 }
                 case 2 -> {
